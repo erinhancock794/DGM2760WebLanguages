@@ -1,0 +1,38 @@
+body h1, h2, h3, h4, h5, h6 ul, li{
+    margin: 0;
+}
+body{
+    background-color: rgb(135,146,138);
+}
+header {
+    max-width: 960px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url(/images/canva-photo-editor.png);
+    padding-top: 10px;
+}
+header h1 {
+    font-family: 'ruthie', 'avenir' , Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5em;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+header h2 {
+    font-family: 'roboto thin';
+    color: white;
+    padding-top: 5px;
+    padding-left: 25px;
+}
+
+
+main{
+    padding-top: 10px; 
+    font-family: 'roboto thin', 'avenir', Calibri, sans-serif;
+}
+ul{
+    list-style-type: square;
+}
+footer {
+    font-family: 'roboto thin', 'avenir', Calibri, sans-serif;
+    text-align: center;
+}

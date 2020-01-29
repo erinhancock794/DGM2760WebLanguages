@@ -15,7 +15,7 @@ header {
 }
 header h1 {
     font-family: 'avenir' , Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 5em;
+    font-size: 80px;
 
 }
 header h2 {
@@ -33,7 +33,16 @@ main{
 ul{
     list-style-type: square;
 }
+#game{
+    padding: 10px 20px 10px 20px;
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+}
+
 footer {
     font-family: 'roboto thin', 'avenir', Calibri, sans-serif;
     text-align: center;
+   
 }

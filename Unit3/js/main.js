@@ -17,6 +17,8 @@ gamerGuess = document.querySelector('#guess').value
 const feedback = document.querySelector('#feedback')
 if (gamerGuess == correctNumber) {
     console.log('gamerGuess is equal to correctNumber')
+} else {
+    console.log('gamerGuess does NOT equal correctNumber!!')
 }
 //console.log(totalGuesses, gamerGuess)
 }

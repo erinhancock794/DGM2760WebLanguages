@@ -5,29 +5,34 @@ body{
     background-color: rgb(157, 220, 236);
 }
 header {
-    max-width: 960px;
-    height: 300px;
     margin: 0 auto; 
-   background-image: url();
-   background-repeat: no-repeat;
-   background-size: 20%;
-   background-position: top right;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)),
+    url(/Unit3/images/questionmark.jpeg);
+   background-size: 150px;
+   align-items: center;
 }
-header h1 {
-    font-family: 'avenir' , Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 80px;
 
+header h1 {
+    
+    font-family: 'avenir' , Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 90px;
+    color:rgb(255, 255, 255);
+    text-shadow: 3px 3px 3px black;
+ 
+    
 }
 header h2 {
+    font-size: 30px;
+    text-shadow: 1px 1px 1px black;
     font-family: 'roboto thin';
-    color: white;
-    padding-top: 5px;
-    padding-left: 25px;
+    color: rgb(255, 255, 255);
+    padding: 0px 0px 10px 5px;
+    
 }
 
 
 main{
-    padding-left: 10px;
+    padding: 10px 10px 10px 5px;
     font-family: 'roboto thin', 'avenir', Calibri, sans-serif;
 }
 ul{
@@ -38,7 +43,10 @@ ul{
   background-color: grey;
   display: flex;
   justify-content: space-between;
-  height: 200px;
+  height: 350px;
+}
+#ribbon img{
+    max-height: 300px;
 }
 
 footer {

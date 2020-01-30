@@ -32,20 +32,30 @@ function evalGuess() {
 }
 //console.log(totalGuesses, gamerGuess)
 function giveAward() {
+    let imagePath = '#'
     switch (totalGuesses) {
         case 1:
         case 2:
         case 3:
-            console.log('1st place! Yellow Ribbon')
+            imagePath = 'images/blueribbon.png'
+            feedback.innerText = 'You got it in 3 tries or less!'
+            
             break;
         case 4:
+            imagePath = 'images/redribbon.png'
             console.log('2nd Place. Red Ribbon')
             break;
         case 5:
-            console.log('3rd place. Blue Ribbon')
+            imagePath = 'images/yellowribbon.png'
+            console.log('3rd place. Yellow Ribbon')
             break;
     }
 
 
     console.log('Congrats')
+
+    const awardImg = document.createElement('img')
+    awardImg.setAttribute('src', imagePath)
+    const ribbon = document.querySelector('#ribbon')
+    ribbon.appendChild(awardImg)
 }

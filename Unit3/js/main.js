@@ -1,7 +1,7 @@
 
-// picking a random number between 0 and 21
+// picking a random number between 0 and 15
 
-const correctNumber = Math.floor(Math.random() * (21 - 1) + 1)
+const correctNumber = Math.floor(Math.random() * (16 - 1) + 1)
 console.log(`The correct number is ${correctNumber}`)
 
 let guessed = false
@@ -19,7 +19,7 @@ function evalGuess() {
         feedback.innerText = 'You are correct!! Congratulations!'
         giveAward()
         console.log('gamerGuess is equal to correctNumber')
-    } else if (gamerGuess > correctNumber && gamerGuess < 21) {
+    } else if (gamerGuess > correctNumber && gamerGuess < 16) {
         feedback.innerText = 'Too high! Try again.'
     } else if (gamerGuess < correctNumber && gamerGuess > 0) {
         feedback.innerText = 'Too low! Try again.'
@@ -39,16 +39,18 @@ function giveAward() {
         case 3:
             imagePath = 'images/blueribbon.png'
             feedback.innerText = 'You got it in 3 tries or less!'
-            
             break;
         case 4:
+        case 5:
+        case 6:
             imagePath = 'images/redribbon.png'
             console.log('2nd Place. Red Ribbon')
             break;
-        case 5:
+        case 7:
+        case 8:
+        case 9:
             imagePath = 'images/yellowribbon.png'
-            console.log('3rd place. Yellow Ribbon')
-            break;
+
     }
 
 
@@ -57,5 +59,12 @@ function giveAward() {
     const awardImg = document.createElement('img')
     awardImg.setAttribute('src', imagePath)
     const ribbon = document.querySelector('#ribbon')
-    ribbon.appendChild(awardImg)
-}
+
+
+       if(ribbon.hasChildNodes()){
+       return
+    } else {
+        ribbon.appendChild(awardImg)}
+    }
+      //only append child if ribbon element doesnot have a child node
+

@@ -20,12 +20,14 @@ listTrees()
 document.querySelector('#add_pine').onclick = () => {
     trees.push('pine')
     listTrees()
+    errorElement.textContent = ''
 }
 
 //add apple tree to start of list
 document.querySelector('#add_apple').onclick = () => {
     trees.unshift('apple')
     listTrees()
+    errorElement.textContent = ''
 }
 //remove first tree in list
 document.querySelector('#remove_tree1').onclick = () => {
@@ -41,6 +43,7 @@ document.querySelector('#remove_tree2').onclick = () => {
     if(trees.length > 1){
     trees.splice(1,1)
     listTrees()
+    errorElement.textContent = ''
     } else {
         errorElement.textContent = "There aren't enough trees to remove the second one."
     }
@@ -50,6 +53,7 @@ document.querySelector('#remove_treeLast').onclick = () => {
     if(trees.length >0){
     trees.pop()
     listTrees()
+    errorElement.textContent = ''
     } else {
         errorElement.textContent = "Can't remove a tree because there aren't any listed."
     }
@@ -58,11 +62,13 @@ document.querySelector('#remove_treeLast').onclick = () => {
 document.querySelector('#sortTrees').onclick = () => {
     trees.sort()
     listTrees()
+    errorElement.textContent = ''
 }
 //make all trees lowercase
 document.querySelector('#lowercaseTrees').onclick = () => {
     if(trees.length > 0){
   let nameList = ''
+  errorElement.textContent = ''
   trees.forEach(tree => {
       nameList += `${tree.toLowerCase()} <br>`
   })

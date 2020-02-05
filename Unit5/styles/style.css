@@ -3,13 +3,18 @@ body h1, h2, h3, h4, h5, h6 ul, li{
 }
 body{
     background-color: rgb(106, 138, 109);
+    
 }
 header {
     margin: 0 auto; 
-   /*  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)),
-    url(/Unit3/images/questionmark.jpeg); */
-   background-size: 150px;
+    background-image: url(/Unit5/images/tree.png); 
+   background-size: 200px;
+   background-position-x: center;
+   background-position-y: top;
    align-items: center;
+   display: flex;
+   flex-direction: column;
+   background-repeat: no-repeat;
   
 }
 
@@ -32,16 +37,54 @@ header h2 {
 main{
     padding: 10px 10px 10px 20px;
     font-family: 'roboto thin', 'avenir', Calibri, sans-serif;
-}
+    display:flex;
+   justify-content: space-evenly;
 
+   
+}
+article{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+
+  
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    font-size: 2em;
+    padding: 10px;
+    background-color: rgb(215,215,215);
+    border-radius: 15px;
+    max-width: 350px;
+
+}
+#error{
+    background-color: honeydew;
+    color: red;
+}
 main div#displayResults span {
     color:red;
 }
 ul{
     list-style-type: square;
 }
-#fortune {
-    font-size: 3em;
+
+button {
+    font-size: 100%;
+    border: 2px;
+    border-radius: .25rem;
+    padding: 10px;
+    cursor: pointer;
+    margin: 2px;
+}
+button:hover{
+    background: rgb(215, 215, 215);
+}
+button:focus {
+    outline: 3px solid rgb(247, 247, 247);
+    outline-offset: -4px;
 }
 
 footer {

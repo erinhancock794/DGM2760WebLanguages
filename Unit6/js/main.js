@@ -1,15 +1,20 @@
 
+let resultStory = document.querySelector('#story')
+
 function tellStory(){
-//nounArray = queryselector('#noun') //lowercase String split()
-/* let nounArray = ['wizard', 'broom', 'elf', 'cauldron', 'wand', 'castle', 'spell'] */
-/* let adjArray = ['scary', 'sparkly', 'black']
-let verbArray = ['laugh', 'fly'] */
-let nounArray = document.querySelector('#noun')
-let adjArray = document.querySelector('#adjective')
-let verbArray = document.querySelector('#verb')
 
-const myStory = `Once upon a time there was a ${nounArray[0]}s named Looloo, Smash, and Peter. ${adjArray[0]} ${verbArray[0]}`
+let nounArray = document.querySelector('#noun').value.toLowerCase().split((/\s*[,\n." "]+\s*/))
+console.log(nounArray)
+let adjArray = document.querySelector('#adjective').textContent
 
+let verbArray = document.querySelector('#verb').textContent
+
+
+const myStory = `Once upon a time there were some <span>${nounArray[0]}s </span> named Looloo, Smash, and Peter. ${adjArray[0]} ${verbArray[0]}`
+console.log(myStory)
 //get a reference to the onclick id
-document.querySelector('#story').onclick = tellStory
+const postStory = document.querySelector('#story')
+postStory.outputHTML = myStory
+
 }
+document.querySelector('#story').onclick = tellStory

@@ -60,13 +60,7 @@ aside{
     max-width: 350px;
 
 }
-#error{
-    background-color: honeydew;
-    color: red;
-}
-main div#displayResults span {
-    color:red;
-}
+
 ul{
     list-style-type: square;
 }
@@ -85,6 +79,9 @@ button:hover{
 button:focus {
     outline: 3px solid rgb(247, 247, 247);
     outline-offset: -4px;
+}
+#noun{
+    height: 100px;
 }
 
 footer {

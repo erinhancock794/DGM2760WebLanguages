@@ -58,13 +58,22 @@ document.querySelector('#remove_treeLast').onclick = () => {
         errorElement.textContent = "Can't remove a tree because there aren't any listed."
     }
 }
+
+
 //sort trees A-Z
 document.querySelector('#sortTrees').onclick = () => {
-    trees.sort()
-    listTrees()
-    errorElement.textContent = ''
-}
+    if(trees.length >0) {
+        trees.sort((a,b) => {
+         return a.toLowerCase().localeCompare(b.toLowerCase())})
+    listTrees() 
+   
+   errorElement.textContent = ''}
+  else {
+
+     errorElement.textContent = "Can't sort without any trees in the list."}
+ } 
 //make all trees lowercase
+
 document.querySelector('#lowercaseTrees').onclick = () => {
     if(trees.length > 0){
   let nameList = ''
@@ -77,6 +86,12 @@ document.querySelector('#lowercaseTrees').onclick = () => {
     errorElement.textContent = "Can't sort without any trees in the list."
 }
 }
+//console.log(nameList)
+
+
+
+
+
 
 //name of the third tree
 document.querySelector('#name_tree3').onclick = () => {

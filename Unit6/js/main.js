@@ -8,20 +8,7 @@ console.log(nounArray)
 let adjArray = document.querySelector('#adjective').value.toLowerCase().split(/\s*[,\n." "]+\s*/)
 console.log(adjArray)
 let verbArray = document.querySelector('#verb').value.toLowerCase().split(/\s*[,\n." "]+\s*/)
-/* Wizard x
-Broom x
-Elf x
-Cauldron x
-Wand x
-Castle x
-Spell */
 
-/* Scary x
-Sparkly x
-Small x */
-
-/* Laugh x
-Fly  x*/
 
 const myStory = `Once upon a time there were some <span>${nounArray[0]}s </span> named Looloo, Smash, and Peter. Peter had a 
  <span>${adjArray[0]}</span> <span>${verbArray[0]}</span>, and sometimes he would sneak around the <span>${nounArray[5]}</span> and creep behind Looloo, 

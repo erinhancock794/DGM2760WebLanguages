@@ -2,15 +2,16 @@ body h1, h2, h3, h4, h5, h6 ul, li{
     margin: 0;
 }
 body{
-    background-color: rgb(162, 128, 168);
+    background-color: rgb(180, 175, 180);
     
 }
 header {
     margin: 0 auto; 
-  /*  background-image: url(/Unit5/images/tree.png);  */
-   background-size: 200px;
+background-image: url(/Unit7/images/close-up-photo-of-person-holding-pizza-1653877.jpg);
+   background-size: 1200px;
+   
    background-position-x: center;
-   background-position-y: top;
+   background-position-y: -10pc;
    align-items: center;
    display: flex;
    flex-direction: column;
@@ -32,34 +33,18 @@ header h2 {
     color: rgb(255, 255, 255);
     padding: 0px 0px 10px 5px;
 }
-
+h2{
+    color: red;
+    font-size: 2rem;
+    margin-top: 30px
+}
 
 main{
     padding: 10px 10px 10px 20px;
     font-family: 'roboto thin', 'avenir', Calibri, sans-serif;
-  /*   display:flex;
-   justify-content: space-evenly;
- */
    
 }
-article{
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
 
-  
-}
-aside{
-    display: flex;
-    flex-direction: column;
-    margin: 30px;
-    font-size: 2em;
-    padding: 10px;
-    background-color: rgb(215,215,215);
-    border-radius: 15px;
-    max-width: 350px;
-
-}
 
 ul{
     list-style-type: square;
@@ -80,25 +65,7 @@ button:focus {
     outline: 3px solid rgb(247, 247, 247);
     outline-offset: -4px;
 }
-#noun{
-    height: 110px;
-    max-width: 200px;
-}
-#verb{
-    height: 60px;
-    max-width: 200px;
-}
-#adjective{
-    height: 60px;
-    max-width: 200px;
-}
 
-#storybox{
-    margin: 10px;
-    padding: 10px;
-    outline: 3px solid rgb(247, 247, 247);
-    background-color:  rgb(209, 167, 218)
-}
 
 footer {
     font-family: 'roboto thin', 'avenir', Calibri, sans-serif;

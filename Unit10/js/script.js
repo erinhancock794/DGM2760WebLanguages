@@ -1,4 +1,9 @@
 
+document.querySelector("#websiteName").textContent = "Hotel California"
+
+document.querySelector("#slogan").textContent = "Such a lovely place."
+
+
 
 async function getHotelData(){
     try {
@@ -33,8 +38,9 @@ function hotelInfo(event) {
    
     console.log(hotelChoice)
 document.querySelector("#hotelName").textContent = `${hotelChoice.name} Hotel`
-document.querySelector('#address').textContent = `Address: ${hotelChoice.address}`
-document.querySelector('#rooms').textContent = `Number of Rooms: ${hotelChoice.rooms}`
-document.querySelector('#gym').textContent = `Gym Available: ${hotelChoice.gym}`
-document.querySelector('#type').textContent = `Room Types: ${hotelChoice.roomType}`
+document.querySelector('#address').textContent = `${hotelChoice.address}`
+document.querySelector('#rooms').textContent = ` ${hotelChoice.rooms}`
+document.querySelector('#gym').textContent = ` ${hotelChoice.gym}`
+document.querySelector('#type').textContent = ` ${hotelChoice.roomType}`
+document.querySelector('#picture').src = `${hotelChoice.picture}`
 }

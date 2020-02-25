@@ -10,7 +10,7 @@
                 " Double"
             ],
             "address": "123 W State Street",
-            "picture": "room1.jpeg"
+            "picture": "images/room1.jpeg"
         },
         {
             "name": "Sheraton",
@@ -21,14 +21,14 @@
                 " Standard"
             ],
             "address": "12 W Broadway St",
-            "picture": "room2.jpeg"
+            "picture": "images/room2.jpg"
         },
         {"name": "Hilton", 
             "rooms": "25" ,
             "gym": "Yes" ,
             "roomType": ["King", " Queen", " Double"],
             "address": "2335 S Freemont St" ,
-            "picture": "room3.jpeg"
+            "picture": "images/room3.jpeg"
         }
     ]
 }

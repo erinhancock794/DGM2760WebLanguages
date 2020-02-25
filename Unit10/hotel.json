@@ -1,0 +1,34 @@
+{
+    "hotels": [
+        {
+            "name": "Mariott",
+            "rooms": "50",
+            "gym": "No",
+            "roomType": [
+                "King",
+                " Queen",
+                " Double"
+            ],
+            "address": "123 W State Street",
+            "picture": "room1.jpeg"
+        },
+        {
+            "name": "Sheraton",
+            "rooms": "90",
+            "gym": "Yes",
+            "roomType": [
+                "Deluxe",
+                " Standard"
+            ],
+            "address": "12 W Broadway St",
+            "picture": "room2.jpeg"
+        },
+        {"name": "Hilton", 
+            "rooms": "25" ,
+            "gym": "Yes" ,
+            "roomType": ["King", " Queen", " Double"],
+            "address": "2335 S Freemont St" ,
+            "picture": "room3.jpeg"
+        }
+    ]
+}

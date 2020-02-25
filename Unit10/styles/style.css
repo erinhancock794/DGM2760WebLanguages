@@ -1,0 +1,75 @@
+body h1, h2, h3, h4, h5, h6 ul, li{
+    margin: 0;
+}
+body{
+ 
+    
+}
+header {
+    margin: 0 auto; 
+background-image: url(/Unit8/images/download.jpeg);
+   background-size: 500px;
+   background-position-x: center;
+   background-position-y: center;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   background-repeat: no-repeat;
+  
+}
+
+header h1 {
+    
+    font-family: 'avenir' , Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+    color:rgb(255, 255, 255);
+    text-shadow: 3px 3px 3px black;
+}
+header h2 {
+    font-size: 30px;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'roboto thin';
+    color: rgb(255, 255, 255);
+    padding: 0px 0px 10px 5px;
+}
+h2{
+  
+    font-size: 2rem;
+    margin-top: 30px
+}
+
+main{
+    padding: 10px 10px 10px 20px;
+    font-family: 'roboto thin', 'avenir', Calibri, sans-serif;
+   
+}
+
+
+ul{
+    list-style-type: square;
+}
+
+button {
+    font-size: 100%;
+    border: 2px;
+    border-radius: .25rem;
+    padding: 10px;
+    cursor: pointer;
+    margin: 4px;
+    
+}
+button:hover{
+    background: rgb(215, 215, 215);
+}
+button:focus {
+    outline: 3px solid rgb(247, 247, 247);
+    outline-offset: -4px;
+}
+
+
+
+footer {
+    font-family: 'roboto thin', 'avenir', Calibri, sans-serif;
+    text-align: center;
+   
+}

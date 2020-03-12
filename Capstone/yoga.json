@@ -1,0 +1,36 @@
+{
+    "poses": [
+        {
+            "name": "Big Toe Pose",
+            "alternate": "Padangusthasana",
+            "type": "Standing",
+            "level": "Intermediate",
+            "benefit": [
+                "Improves digestion",
+                "Relieves headache"
+            ],
+            "picture": "images/room1.jpeg"
+        },   {
+            "name": "Big Toe Pose",
+            "alternate": "Padangusthasana",
+            "type": "Standing",
+            "level": "Intermediate",
+            "benefit": [
+                "Improves digestion",
+                "Relieves headache"
+            ],
+            "picture": "images/room1.jpeg"
+        },   {
+            "name": "Big Toe Pose",
+            "alternate": "Padangusthasana",
+            "type": "Standing",
+            "level": "Intermediate",
+            "benefit": [
+                "Improves digestion",
+                "Relieves headache"
+            ],
+            "picture": "images/room1.jpeg"
+        }
+    ]
+    }       
+    

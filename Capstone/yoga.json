@@ -10,27 +10,138 @@
                 "Relieves headache"
             ],
             "picture": "images/room1.jpeg"
-        },   {
-            "name": "Big Toe Pose",
-            "alternate": "Padangusthasana",
+        },
+        {
+            "name": "Chair Pose",
+            "alternate": "Utkatasana",
             "type": "Standing",
-            "level": "Intermediate",
+            "level": "Beginner",
             "benefit": [
-                "Improves digestion",
-                "Relieves headache"
+                "Improves posture",
+                "Tones abdomen and thighs"
             ],
             "picture": "images/room1.jpeg"
-        },   {
-            "name": "Big Toe Pose",
-            "alternate": "Padangusthasana",
+        },
+        {
+            "name": "Downward Facing Dog Pose",
+            "alternate": "Adho Mukha Svanasana",
+            "type": "Standing",
+            "level": "Beginner",
+            "benefit": [
+                "Improves hamstring flexibility",
+                "Strengthens wrists, ankles, and back"
+            ],
+            "picture": "images/room1.jpeg"
+        },
+        {
+            "name": "Eagle Pose",
+            "alternate": "Garudasana",
             "type": "Standing",
             "level": "Intermediate",
             "benefit": [
-                "Improves digestion",
-                "Relieves headache"
+                "Improves balance",
+                "Tones calves and arms"
+            ],
+            "picture": "images/room1.jpeg"
+        },
+        {
+            "name": "Half Bound Lotus Standing Pose",
+            "alternate": "Ardha Baddha Padmottanasana",
+            "type": "Standing",
+            "level": "Advanced",
+            "benefit": [
+                "Good for Achilles' tendon",
+                "Beneficial for hormonal imbalances"
+            ],
+            "picture": "images/room1.jpeg"
+        },
+        {
+            "name": "Half Wheel Pose",
+            "alternate": "Ardha Chakrasana",
+            "type": "Standing",
+            "level": "Advanced",
+            "benefit": [
+                "Improves balance",
+                "Strengthens back and ankles"
+            ],
+            "picture": "images/room1.jpeg"
+        },
+        {
+            "name": "Headstand",
+            "alternate": "Sirsasana",
+            "type": "Standing",
+            "level": "Advanced",
+            "benefit": [
+                "Improves balance and focus",
+                "Strengthens upper body"
+            ],
+            "picture": "images/room1.jpeg"
+        },
+        {
+            "name": "Lord of Dancers Pose",
+            "alternate": "Natarajasana",
+            "type": "Standing",
+            "level": "Advanced",
+            "benefit": [
+                "Hip opener",
+                "Improves mental focus"
+            ],
+            "picture": "images/room1.jpeg"
+        },
+        {
+            "name": "Revolved Triangle Pose",
+            "alternate": "Parivritta Trikonasana",
+            "type": "Standing",
+            "level": "Intermediate",
+            "benefit": [
+                "Relaxes back and hips",
+                "Tones abdomen and shoulders"
+            ],
+            "picture": "images/room1.jpeg"
+        },
+        {
+            "name": "Camel Pose",
+            "alternate": "Ustrasana",
+            "type": "Sitting",
+            "level": "Intermediate",
+            "benefit": [
+                "Strengthens knees and back",
+                "Improves concentration"
+            ],
+            "picture": "images/room1.jpeg"
+        },
+        {
+            "name": "Child Pose",
+            "alternate": "Balasana",
+            "type": "Sitting",
+            "level": "Beginner",
+            "benefit": [
+                "Great for depression and anxiety",
+                "Relaxes upper back and arms"
+            ],
+            "picture": "images/room1.jpeg"
+        },
+        {
+            "name": "Dove Pose",
+            "alternate": "Vajra Kapotasana",
+            "type": "Sitting",
+            "level": "Advanced",
+            "benefit": [
+                "Increases blood circulation in spine and head",
+                "Stretches shoulders and knees"
+            ],
+            "picture": "images/room1.jpeg"
+        },
+        {
+            "name": "Firefly Pose",
+            "alternate": "Tittibhasana",
+            "type": "Sitting",
+            "level": "Advanced",
+            "benefit": [
+                "Improves wrist strength and hand grip",
+                "Enhances balance and focus"
             ],
             "picture": "images/room1.jpeg"
         }
     ]
-    }       
-    
+}
